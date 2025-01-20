@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 public class CharacterFrequencyCounterTest {
 
     @Test
-    public void testLAppearsThreeTimesInHellowWorld(){
+    public void testLAppearsThreeTimesInHelloWorld(){
         //Arrange
         CharacterFrequencyCounter counter = new CharacterFrequencyCounter("hello world");
 
@@ -27,7 +27,7 @@ public class CharacterFrequencyCounterTest {
     }
 
     @Test
-    public void testPercentZeroForNonOccuringChar(){
+    public void testPercentZeroForNonOccurringChar(){
         CharacterFrequencyCounter counter = new CharacterFrequencyCounter("hi there");
 
         double actualPercent = counter.getRelativePercentage('z');
